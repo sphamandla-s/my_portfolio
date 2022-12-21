@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.primary-color{
+    color: #fff;
+}
+
+.secondary-color{
+    color: #b0b0b0;
+}
+
+.primary-d-color{
+    color: #00bfff;
+}
+
+.secondary-d-color{
+    color: #f31111;
+}
+
+.sub-title{
+    font-size: 60px;
+}
+
+body {
+    background-color: #080808;
+    
+}
+
+header{
+   height: 100vh;
+   width: 100%;
+}
+
+
+.container{
+    padding: 10px 10%;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+
+
+nav ul li a::after {
+    content: '';
+    width: 0;
+    height: 2px;
+    position: absolute;
+    background-color: #00bfff;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+
+nav ul li a:hover::after{
+    width: 100%;
+}
+
+.header-text{
+    font-size: 30px;
+    margin-top: 20%;
+}
+
+.header-text h1{
+    font-size: 60px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-col-1{
+    flex-basis: 30%;
+}
+
+.about-col-1 img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.about-col-2{
+    flex-basis: 65%;
+}
+
+.about-tabs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0 40px;
+}
+
+.tab-link{
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+}
+
+.tab-link::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    position: absolute;
+    background-color: #f31111;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+
+.tab-link:hover::after{
+    width: 100%;
+}
+
+.tab-link.active-link::after{
+    width: 100%;
+}
+
+#skill-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.skill-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 20px 0;
+    align-items: center;
+}
+
+
+.about-tabs-contents{
+    display: none;
+}
+
+
+.about-tabs-contents.active-tab{
+    display: block;
+}
