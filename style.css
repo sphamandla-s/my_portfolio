@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Changa&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Chivo+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Norican&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -50,6 +52,11 @@ header{
 
 .container{
     padding: 10px 10%;
+}
+
+
+#logo h1, #logo span{
+    font-family: 'Norican', cursive;
 }
 
 
@@ -306,10 +313,44 @@ footer {
     color: #f31111;
     font-size: 40px;
     font-weight: bold;
+    font-family: 'VT323', monospace;
 }
 
 .swiper .swiper-button-prev {
     color: #f31111;
 }
 
+.anim-text{
+    position: relative;
+    font-size: 5vw;
+    color: #f31111;
+    -webkit-text-stroke: 0.3vw palevioletred;
+    text-transform: uppercase;
+    width: 80%;
+    font-family: 'VT323', monospace;
+}
+
+.anim-text::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20%;
+    height: 100%;
+    color: green;
+    -webkit-text-stroke: 0vw palevioletred;
+    border-right: 2px solid lawngreen;
+    overflow: hidden;
+    animation: animate 6s infinite;
+}
+
+@keyframes animate {
+    0%,10%,100%{
+        width: 0%;
+    }
+
+    70%,90%{
+        width: 100%;
+    }
+}
 
