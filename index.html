@@ -5,358 +5,213 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://unpkg.com/scrollreveal"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="style.css">
-    <title>Sphamandla Mdletshe </title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Siphamandla Mdletshe</title>
 </head>
 
-<body>
+<body class="dark-mode">
+
     <header>
         <div class="container">
             <nav>
-                <div id="logo">
-                    <h1 class="primary-color">
-                        <span class="secondary-d-color">S.</span>S.M<span class="primary-d-color">{}</span><span
-                            class="secondary-d-color">;</span>
-                    </h1>
+                <h1 id="logo">
+                    S.S.M{};
+                </h1>
+
+                <div class="nav-links">
+                    <ul id="side-menu" >
+                        <li><a href="#about" class="dark-mode-link">About</a></li>
+                        <li><a href="#projects" class="dark-mode-link">Projects</a></li>
+                        <li><a href="#contact" class="dark-mode-link">Contact</a></li>
+                        <li class="fas fa-times" onclick="closeMenu()"></li>
+                    </ul>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/siphamandla-mdletshe-644a7323b" class="dark-mode-link"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/sphamandla-s" class="dark-mode-link"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <div class="toggle">
+                        <i class="fa-solid fa-moon theme-mode theme-mode-hidden"></i>
+                        <i class="fa-solid fa-sun theme-mode"></i>
+                    </div>
+                    <li class="fas fa-bars" onclick="openMenu()"></li>
                 </div>
-                <ul>
-                    <li><a href="#about" class="primary-color">About</a></li>
-                    <li><a href="#projects" class="primary-color">Projects</a></li>
-                    <li><a href="#contact" class="primary-color">Contact</a></li>
-                </ul>
             </nav>
 
-            <div class="header-text primary-color">
-                <h1>Hello, I'm <span class="animate-character">Siphamandla</span> <span
-                        class="animate-character">Siphamandla</span> <br> Mdletshe</h1>
-                <p>Full-stack Software Developer <span id="text1"> </span>
-                    <span id="text2"> </span>
+            <section id="header-main">
+                <p>
+                    hello, i'm </p>
+                <h1><span class="primary-color">Siphamandla</span> Mdletshe</h1>
+                <p>Full-stack web <span class="secondary-color">&</span> mobile Software Developer.
+                    <br>
+                    'bringing things to life with code is my superpower.'
                 </p>
-                <p>bringing things to life with code is my superpower.
-                </p>
-            </div>
+                <div class="space-s-top">
+                    <a href="assets/Siphamandla Mdletshe Developer Resume.pdf" target="_blank" class="dark-mode-link resume-btm dark-mode-border">Download CV</a>
+                    <a href="#contact" class="dark-mode-link" id="hire-me">Hire Me</a>
+                </div>
+            </section>
         </div>
+
+
     </header>
 
 
+
     <main>
-        <!-- About -->
+        <!-- about -->
         <section id="about">
             <div class="container">
-                <div class="row">
-                    <div class="about-col-1">
-                        <img src="images/20220709_123936.jpg" alt="">
+                <div id="about-main" class="row">
+                    <div id="about-col-1">
+                        <img src="images/readme.svg" alt="">
                     </div>
-                    <div class="about-col-2">
-                        <h1 class="sub-title primary-color">Readme.</h1>
-                        <p class="discription">
-                            I am an energetic, hardworking, and ambitious individual who has developed a mature and
-                            responsible approach
-                            to any task or situation that I am presented with. I excel at collaborating with others to
-                            achieve a specific goal
-                            on time and with excellence. I am always eager to learn and share my knowledge. Throughout
-                            my successful
-                            restaurant career and weThinkCode journey, I have developed exceptional team leadership,
-                            planning, and
-                            organizing skills. I am an articulate, confident individual who enjoys challenges and
-                            working under pressure. I
-                            am good at time management and multitasking. I am used to working in a stressful
-                            environment, especially when
-                            dealing with multiple projects and priorities at once.
-                            Happiest when I'm <span class="primary-d-color bold-text">learning, building and
+                    <div id="about-col-2">
+                        <h1 class="title">Readme.</h1>
+                        <p>
+                            I am a recent system developer graduate with a
+                            passion for software development, data
+                            science and blockchain. I have a strong foundation in
+                            programming concepts and am proficient in
+                            several programming languages including Java,
+                            flutter, and Python. I am also familiar with
+                            software development methodologies such as
+                            Agile and Scrum. I am eager to apply my skills
+                            and continue learning on the job as an entry level software developer. I am a fast learner
+                            and I have strong problem-solving skills, I also
+                            have good verbal and written communication
+                            skills. In addition, I have completed several
+                            projects during my studies that have helped me
+                            to improve my software development skills. I
+                            am an energetic, hardworking, and ambitious
+                            individual who has developed a mature and
+                            responsible approach to any task or situation
+                            that I am presented with. I excel at
+                            collaborating with others to achieve a specific
+                            goal on time and with excellence. I am always
+                            eager to learn and share my knowledge.
+                            Happiest when I'm <span class="secondary-color bold-text">learning, building and
                                 contributing</span> to meaningful projects. I love
                             building high-quality products and bringing them to life through design and code.
                         </p>
-
-                        <div class="about-tabs">
-                            <h3 class="tab-link primary-color active-link" id="skill-tab">Skills</h3>
-                            <h3 class="tab-link primary-color" id="education-tab">Education</h3>
-                            <h3 class="tab-link primary-color" id="experience-tab">Experience</h3>
-                        </div>
-
-                        <div class="about-tabs-contents active-tab" id="skills">
-
-                            <div id="skill-content">
-                                <div class="skill-content">
-                                    <img src="images/icons8-python-48.png" alt="Python-logo">
-                                    <p>Python</p>
-                                </div>
-                                <div class="skill-content">
-                                    <img src="images/icons8-java-48.png" alt="Java-logo">
-                                    <p>Java</p>
-                                </div>
-                                <div class="skill-content">
-                                    <img src="images/icons8-javascript-48.png" alt="Javascript-logo">
-                                    <p>Javascript</p>
-                                </div>
-                                <div class="skill-content">
-                                    <img src="images/icons8-flutter-48.png" alt="flutter-logo">
-                                    <p>Flutter</p>
-                                </div>
-                                <div class="skill-content">
-                                    <img src="images/icons8-html-64.png" alt="html & css-logo">
-                                    <p>HTML & CSS</p>
-                                </div>
-                                <div class="skill-content">
-                                    <img src="images/icons8-git-48.png" alt="html & css-logo">
-                                    <p>Git Source Control</p>
-                                </div>
-                                <div class="skill-content">
-                                    <img src="images/icons8-docker-48.png" alt="Docker-logo">
-                                    <p>Docker</p>
-                                </div>
-                            </div>
+                        <div id="about-tags" class="row">
+                            <h3 class="tab-link active-link" onclick="openTab('skills')">Skills</h3>
+                            <h3 class="tab-link" onclick="openTab('education')">Education</h3>
+                            <h3 class="tab-link" onclick="openTab('experience')">Experience</h3>
 
                         </div>
+                        <div id="skills" class="about-tab-content active-tab">
+                            <p>Skills</p>
+                        </div>
 
-                        <div class="about-tabs-contents" id="education">
+                        <div id="education" class="about-tab-content">
                             <ul>
-                                <li> <span class="qualification primary-d-color">Diploma in Law</span> at University of South Africa<br> 2020 - Present </li>
-                                <li> <span class="qualification primary-d-color">Information Technology:
-                                    Systems Development</span> at WeThinkCode_ <br> 2021 - 2022 </li>
+                                <li> <span class="secondary-color bold-text">Diploma in Law</span> at University of
+                                    South Africa<br> 2020 - Present </li>
+                                <li> <span class="secondary-color bold-text">NQF level 5 Information Technology:
+                                        Systems Development</span> at WeThinkCode_ <br> 2021 - 2022 </li>
                             </ul>
                         </div>
-
-                        <div class="about-tabs-contents" id="experience">
-                            <!-- <ul>
-                                <li>
-                                    <span class="heading">Restaurant Manager</span> at Mondise Chisanyama And Restaurant
-                                    <br>
-                                    Nov 2020 - Aug 2021 (10 months) <br>
-                                    <span class="job-description">
-                                        I was given the responsibility of controlling expenses and maximizing
-                                        expenditures through budget
-                                        restructuring for personnel, capital assets, inventory purchases, and
-                                        technological advancements. and
-                                        to find and hire outstanding individuals to bolster the restaurant's talent and
-                                        value .manage worker
-                                        disputes by attentively listening to issues and seeking a reasonable compromise.
-                                        Developed and
-                                        maintained relationships with customers and suppliers through Kept account
-                                        development. completed
-                                        a number of duties within the allotted time while maintaining meticulous records
-                                        of daily progress to
-                                        identify and address areas that needed improvement and to maintain a
-                                        professional, organized, and
-                                        safe environment for customers and workers.
-                                    </span>
-                                </li>
-                                <li>
-                                    <span class="heading">Laboratory Assistant</span> at Tendele Coal Mining
-                                    <br>
-                                    Dec 2017 - May 2018 (6 months)
-                                    <br>
-                                    <span class="job-description">My responsibilities included collecting coal samples
-                                        and ensuring their safe delivery to the lab technician, assisting lab
-                                        technicians in performing their duties with ease, and performing any other
-                                        reasonable tasks as requested by management from time to time.
-                                    </span>
-                                </li>
-                                <li>
-                                    <span class="heading">2X Team Lead</span> at Intelligent Trainers(Hackaton Team)
-                                    <br>
-                                    <span class="job-description">I was in charge of a team of eight extremely bright
-                                        young people who wanted to change the world through technology. We took part in
-                                        a hackathon focused on resolving social issues and improving the lives of
-                                        Africans.
-                                    </span>
-                                </li>
-                            </ul> -->
-                            <p>Have not work for any Company as of yet :-( as im fresh out of school.</p>
-                    
-                            <div class="anim-text">
-                                <h2 class="anim-text-title">
-                                  <span class="title-word title-word-1">I'M</span>
-                                  <span class="title-word title-word-2">OPEN</span>
-                                  <span class="title-word title-word-3">FOR</span>
-                                  <span class="title-word title-word-4">WORK</span>
-                                </h2>
-                              </div>
-                            <p>
-                                Let's build cool things!
-                            </p>
+                        <div id="experience" class="about-tab-content">
+                            <p>Experience</p>
                         </div>
                     </div>
-
                 </div>
             </div>
         </section>
         <!-- Projects -->
         <section id="projects">
             <div class="container">
-                <h1 class="sub-title primary-color center-text">Some Things I’ve Built.</h1>
+                <h1 class="title center-text">Some Things I’ve Built.</h1>
                 <div class="swiper">
-                    <!-- Additional required wrapper -->
                     <div class="swiper-wrapper">
-                        <!-- Slides -->
                         <div class="swiper-slide">
                             <div class="project-list">
                                 <div class="project">
-                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQRzfFACqhVPFn_P5gmuyyYYoyQW1E3RVMqg&usqp=CAU" alt="space wars">
-                                    <div class="layer">
-                                        <h3>Space Wars</h3>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus molestias
-                                            dolore
-                                            voluptatum, cupiditate laudantium tempora.</p>
-                                        <a href="https://github.com/sphamandla-s/Space-wars-with-pygame"><i class="fa-solid fa-up-right-from-square"></i></a>
-                                    </div>
-                                </div>
-                                <div class="project">
-                                    <img src="https://pbs.twimg.com/profile_images/1402716771602337793/3zOqMJ-h_400x400.jpg" alt="News">
-                                    <div class="layer">
-                                        <h3>Global News</h3>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus molestias
-                                            dolore
-                                            voluptatum, cupiditate laudantium tempora.</p>
-                                        <a href="https://github.com/sphamandla-s/node-js-Global-News-Today"><i class="fa-solid fa-up-right-from-square"></i></a>
-                                    </div>
-                                </div>
-                                <div class="project">
-                                    <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/task-manager-5320178-4452647.png" alt="Task Manager">
-                                    <div class="layer">
-                                        <h3>Tasks</h3>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus molestias
-                                            dolore
-                                            voluptatum, cupiditate laudantium tempora.</p>
-                                        <a href="https://github.com/sphamandla-s/task-manager"><i class="fa-solid fa-up-right-from-square"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="project-list">
-                                <div class="project">
-                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2pHkqfNp_KSPYhmUyCfQmXEBawJlI-gl_xg&usqp=CAU" alt="Blogger">
-                                    <div class="layer">
-                                        <h3>Socail Blogger</h3>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus molestias
-                                            dolore
-                                            voluptatum, cupiditate laudantium tempora.</p>
-                                            <ul>
-                                                <li>Python</li>
-                                                <li>Java</li>
-                                                <li>Flutter</li>
-                                            </ul>
-                                        <a href="https://github.com/sphamandla-s/Social-blog"><i class="fa-solid fa-up-right-from-square"></i></a>
-                                    </div>
-                                </div>
-                                <div class="project">
-                                    <img src="data:image/png;base64,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" alt="Notes">
-                                    <div class="layer">
-                                        <h3>Notes</h3>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus molestias
-                                            dolore
-                                            voluptatum, cupiditate laudantium tempora.</p>
-                                        <a href="https://github.com/sphamandla-s/students_productive_room"><i class="fa-solid fa-up-right-from-square"></i></a>
-                                    </div>
-                                </div>
-                                <div class="project">
-                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5Deuox8EC-nzeSuor6bPagpn91UlQV2GlBw&usqp=CAU" alt="Password Cracker">
-                                    <div class="layer">
-                                        <h3>Password Cracker</h3>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus molestias
-                                            dolore
-                                            voluptatum, cupiditate laudantium tempora.</p>
-                                        <a href="https://github.com/sphamandla-s/password-cracker-with-python-recursion"><i class="fa-solid fa-up-right-from-square"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="project-list">
-                                <div class="project">
-                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNLirWKlQZlgiM1HUD89LtKNUEOUO7OV8w_A&usqp=CAU" alt="Dice game">
-                                    <div class="layer">
-                                        <h3>Dice Game</h3>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus molestias
-                                            dolore
-                                            voluptatum, cupiditate laudantium tempora.</p>
-                                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
-                                    </div>
-                                </div>
-                                <div class="project">
-                                    <img src="data:image/jpeg;base64,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" alt="Rock Paper Scissors">
-                                    <div class="layer">
-                                        <h3>rock paper scissors game</h3>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus molestias
-                                            dolore
-                                            voluptatum, cupiditate laudantium tempora.</p>
-                                        <a href="https://github.com/sphamandla-s/Rock-Paper-Scissors-Game-as-my-first-javascript-project"><i class="fa-solid fa-up-right-from-square"></i></a>
-                                    </div>
-                                </div>
-                                <div class="project">
-                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnk459i292XvIm33BFjV15Eu2cKOt2fetFmw&usqp=CAU" alt="productivity">
+                                    <img src="images/readme.svg" alt="">
                                     <div class="layer">
                                         <h3>Next 6 Months</h3>
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus molestias
                                             dolore
                                             voluptatum, cupiditate laudantium tempora.</p>
-                                        <a href="https://github.com/sphamandla-s/next_6_months"><i class="fa-solid fa-up-right-from-square"></i></a>
+                                        <a href="https://github.com/sphamandla-s/next_6_months"><i
+                                                class="fa-solid fa-up-right-from-square" target="_blank"></i></a>
+                                    </div>
+                                </div>
+                                <div class="project">
+                                    <img src="images/readme.svg" alt="">
+                                    <div class="layer">
+                                        <h3>Next 6 Months</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus molestias
+                                            dolore
+                                            voluptatum, cupiditate laudantium tempora.</p>
+                                        <a href="https://github.com/sphamandla-s/next_6_months"><i
+                                                class="fa-solid fa-up-right-from-square" target="_blank"></i></a>
+                                    </div>
+                                </div>
+                                <div class="project">
+                                    <img src="images/readme.svg" alt="">
+                                    <div class="layer">
+                                        <h3>Next 6 Months</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus molestias
+                                            dolore
+                                            voluptatum, cupiditate laudantium tempora.</p>
+                                        <a href="https://github.com/sphamandla-s/next_6_months"><i
+                                                class="fa-solid fa-up-right-from-square" target="_blank"></i></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        ...
                     </div>
-                    <!-- If we need pagination -->
                     <div class="swiper-pagination"></div>
-
-                    <!-- If we need navigation buttons -->
                     <div class="swiper-button-prev"></div>
                     <div class="swiper-button-next"></div>
-
                 </div>
             </div>
         </section>
-        <!-- Contact -->
+        <!-- contact -->
         <section id="contact">
             <div class="container">
-                <h1 class="sub-title primary-color center-text">Let Talk</h1>
-                <div class="contact-col">
-                    <div class="contact-left">
-                        <h3 class="fa-solid fa-envelope"> mdletshespha38@gmail.com</h3>
+                <h1 class="title center-text">Let Talk.</h1>
+                <div class="row space-top align-center">
+                    <div>
+                        <h3 class="fa-solid fa-envelope text-lowercase"> mdletshespha38@gmail.com</h3>
                         <br>
-                        <h3 class="fa-solid fa-phone"> 0761911814</h3>
-                        <div class="social-icons">
-                            <a href="https://www.linkedin.com/in/siphamandla-mdletshe-644a7323b"><i
+                        <h3 class="fa-solid fa-phone space-s-top"> 0761911814</h3>
+                        <div class="social-icons space-s-top">
+                            <a href="https://www.linkedin.com/in/siphamandla-mdletshe-644a7323b" class="dark-mode-link"><i
                                     class="fa-brands fa-linkedin"></i></a>
-                            <a href="https://github.com/sphamandla-s"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://github.com/sphamandla-s" class="dark-mode-link"><i class="fa-brands fa-github"></i></a>
                         </div>
                     </div>
-                    <div class="contact-right">
-                        <button id="download-btn">Download my resume</button>
+                    <div>
+                        <a href="assets/Siphamandla Mdletshe Developer Resume.pdf" target="_blank" class="dark-mode-link resume-btm">Download CV</a>
+                    </div>
+                    <div>
+
                     </div>
                 </div>
             </div>
         </section>
     </main>
 
+
     <footer>
         <div class="copyrights">
             <p class="center-text">
-                &copy;2023 Designed & Built by <a class="primary-d-color bold-text" href="#">Sphamandla Mdletshe</a>
+                &copy;2023 Designed & Built by <a class="secondary-color bold-text dark-mode-link" href="#">Siphamandla Mdletshe</a>
             </p>
         </div>
     </footer>
 
 
-
-    <svg id="filters">
-        <defs>
-            <filter id="threshold">
-                <feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0
-                      0 1 0 0 0
-                      0 0 1 0 0
-                      0 0 0 255 -140" />
-            </filter>
-        </defs>
-    </svg>
-
-
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-    <script src="app.js"></script>
+    <script src="js/app.js"></script>
 </body>
 
 </html>
